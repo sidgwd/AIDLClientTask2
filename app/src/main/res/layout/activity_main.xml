@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="15dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+  <Button
+      android:id="@+id/btnConnect"
+      android:layout_width="wrap_content"
+      android:text="Connect AIDL Service"
+      android:layout_height="wrap_content"></Button>
+
+    <Button
+        android:id="@+id/btnDisConnect"
+        android:layout_width="wrap_content"
+        android:text="Disconnect AIDL Service"
+        android:layout_height="wrap_content"></Button>
+
+    <TextView
+        android:id="@+id/tvData"
+        android:layout_width="match_parent"
+        android:text="Service Connection Status here"
+        android:textColor="@color/black"
+        android:layout_height="match_parent"></TextView>
+
+</LinearLayout>
