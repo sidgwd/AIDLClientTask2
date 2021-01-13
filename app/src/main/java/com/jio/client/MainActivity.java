@@ -12,9 +12,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.jio.server.sdk.OrientationModel;
-import com.jio.server.sdk.ICallback;
-import com.jio.server.sdk.ISdkOrientationProvider;
+import com.jio.aidl_server.sdk.OrientationModel;
+import com.jio.aidl_server.sdk.ICallback;
+import com.jio.aidl_server.sdk.ISdkOrientationProvider;
 
 public class MainActivity extends AppCompatActivity {
     Button btnConnect, btnDisConnect;
@@ -65,12 +65,10 @@ public class MainActivity extends AppCompatActivity {
     public void bindAidlService() {
         if (sdkServerConnection != null) {
             Intent i = new Intent("com.jio.aidl_server.aidl.service.ISdkCallerService");
-            i.setPackage("com.jio.aidl_server.aidl.aidl");
+            i.setPackage("com.jio.aidl_server.aidl");
             if (!bindService(i, sdkServerConnection, Context.BIND_AUTO_CREATE)) {
                 tvData.setText("Service Connection Failed!\nPlease install AIDL Server App.");
             }
-
-
         }
     }
 
@@ -78,22 +76,22 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onResult(OrientationModel vo) {
 
-            tvData.setText("AIDL Service Connected\n\ncurrentOrientation: " + vo.getCurrentOrientation() + "\n" +
-                    "accuracy: " + vo.getAccuracy() + "\n" +
-                    "Sensory_timeStamp: " + vo.getTimeStamp() + "\n" +
-                    "maxEventsCount: " + vo.getMaxEventsCount() + "\n" +
+            tvData.setText("AIDL Service Connected\n\nCurrentOrientation: " + vo.getCurrentOrientation() + "\n" +
+                    "Accuracy: " + vo.getAccuracy() + "\n" +
+                    "Sensory timeStamp: " + vo.getTimeStamp() /*+ "\n" +*/
+                    /*"maxEventsCount: " + vo.getMaxEventsCount() + "\n" +
                     "reserverdEventsCount: " + vo.getReserverdEventsCount() + "\n" +
                     "id: " + vo.getId() + "\n" +
                     "maxDelay: " + vo.getMaxDelay() + "\n" +
                     "maxRange: " + vo.getMaxRange() + "\n" +
-                    "minDelay: " + vo.getMinDelay() + "\n" +
+                    "minDelay: " + vo.getMinDelay() *//*+ "\n" +
                     "name: " + vo.getName() + "\n" +
                     "power: " + vo.getPower() + "\n" +
                     "reportingMode: " + vo.getReportingMode() + "\n" +
                     "resolution: " + vo.getResolution() + "\n" +
                     "stringType: " + vo.getStringType() + "\n" +
                     "vendor: " + vo.getVendor() + "\n" +
-                    "version: " + vo.getVersion());
+                    "version: " + vo.getVersion()*/);
         }
     };
 

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "applicationId": "com.jio.server.sdk",
+  "applicationId": "com.jio.aidl_server.sdk",
   "variantType": "LIBRARY",
   "elements": [
     {
@@ -19,7 +19,7 @@
       },
       "path": "../../library_manifest/debug/AndroidManifest.xml",
       "properties": {
-        "packageId": "com.jio.server.sdk",
+        "packageId": "com.jio.aidl_server.sdk",
         "split": ""
       }
     }

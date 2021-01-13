@@ -1,3 +1,3 @@
 // OrientationModel.aidl
-package com.jio.server.sdk;
+package com.jio.aidl_server.sdk;
 parcelable OrientationModel;

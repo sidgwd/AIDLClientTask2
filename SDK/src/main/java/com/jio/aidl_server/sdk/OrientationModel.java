@@ -1,4 +1,4 @@
-package com.jio.server.sdk;
+package com.jio.aidl_server.sdk;
 
 import android.os.Parcel;
 

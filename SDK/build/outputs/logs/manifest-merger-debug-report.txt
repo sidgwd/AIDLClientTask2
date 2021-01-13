@@ -8,7 +8,7 @@ INJECTED from D:\Jio Tesseract\AIDLClient\SDK\src\main\AndroidManifest.xml:2:1-5
 INJECTED from D:\Jio Tesseract\AIDLClient\SDK\src\main\AndroidManifest.xml:2:1-5:12
 INJECTED from D:\Jio Tesseract\AIDLClient\SDK\src\main\AndroidManifest.xml:2:1-5:12
 	package
-		ADDED from D:\Jio Tesseract\AIDLClient\SDK\src\main\AndroidManifest.xml:3:5-33
+		ADDED from D:\Jio Tesseract\AIDLClient\SDK\src\main\AndroidManifest.xml:3:5-38
 		INJECTED from D:\Jio Tesseract\AIDLClient\SDK\src\main\AndroidManifest.xml
 		INJECTED from D:\Jio Tesseract\AIDLClient\SDK\src\main\AndroidManifest.xml
 	android:versionName

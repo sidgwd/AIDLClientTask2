@@ -1,7 +1,7 @@
 // ISdkOrientationProvider.aidl
-package com.jio.server.sdk;
-import com.jio.server.sdk.ICallback;
-import com.jio.server.sdk.OrientationModel;
+package com.jio.aidl_server.sdk;
+import com.jio.aidl_server.sdk.ICallback;
+import com.jio.aidl_server.sdk.OrientationModel;
 
 interface ISdkOrientationProvider {
    void getOrientationLogs(in String deviceId);

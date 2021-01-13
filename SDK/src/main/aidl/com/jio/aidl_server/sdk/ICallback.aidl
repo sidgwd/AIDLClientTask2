@@ -1,6 +1,6 @@
 // ICallback.aidl
-package com.jio.server.sdk;
-import com.jio.server.sdk.OrientationModel;
+package com.jio.aidl_server.sdk;
+import com.jio.aidl_server.sdk.OrientationModel;
 
 // Declare any non-default types here with import statements
 interface ICallback {
