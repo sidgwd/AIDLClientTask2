@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.jio.aidlclient"
+    package="com.jio.client"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -18,7 +18,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.AIDLClient" >
-        <activity android:name="com.jio.aidlclient.MainActivity" >
+        <activity android:name="com.jio.client.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

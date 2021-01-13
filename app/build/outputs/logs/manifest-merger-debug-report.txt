@@ -36,7 +36,7 @@ INJECTED from D:\Jio Tesseract\AIDLClient\app\src\main\AndroidManifest.xml:2:1-2
 INJECTED from D:\Jio Tesseract\AIDLClient\app\src\main\AndroidManifest.xml:2:1-21:12
 INJECTED from D:\Jio Tesseract\AIDLClient\app\src\main\AndroidManifest.xml:2:1-21:12
 	package
-		ADDED from D:\Jio Tesseract\AIDLClient\app\src\main\AndroidManifest.xml:3:5-33
+		ADDED from D:\Jio Tesseract\AIDLClient\app\src\main\AndroidManifest.xml:3:5-29
 		INJECTED from D:\Jio Tesseract\AIDLClient\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Jio Tesseract\AIDLClient\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -71,10 +71,10 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Ad
 		ADDED from D:\Jio Tesseract\AIDLClient\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from D:\Jio Tesseract\AIDLClient\app\src\main\AndroidManifest.xml:11:9-48
-activity#com.jio.aidlclient.MainActivity
+activity#com.jio.client.MainActivity
 ADDED from D:\Jio Tesseract\AIDLClient\app\src\main\AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from D:\Jio Tesseract\AIDLClient\app\src\main\AndroidManifest.xml:12:19-47
+		ADDED from D:\Jio Tesseract\AIDLClient\app\src\main\AndroidManifest.xml:12:19-61
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from D:\Jio Tesseract\AIDLClient\app\src\main\AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN

@@ -12,13 +12,13 @@
   <Button
       android:id="@+id/btnConnect"
       android:layout_width="wrap_content"
-      android:text="Connect AIDL Service"
+      android:text="Connect Service"
       android:layout_height="wrap_content"></Button>
 
     <Button
         android:id="@+id/btnDisConnect"
         android:layout_width="wrap_content"
-        android:text="Disconnect AIDL Service"
+        android:text="Disconnect Service"
         android:layout_height="wrap_content"></Button>
 
     <TextView

@@ -1,4 +1,4 @@
-package com.jio.aidlclient;
+package com.jio.client;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,9 +7,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
 import android.os.Bundle;
-import android.os.Handler;
 import android.os.IBinder;
-import android.text.format.DateFormat;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -17,9 +15,6 @@ import android.widget.TextView;
 import com.jio.server.sdk.OrientationModel;
 import com.jio.server.sdk.ICallback;
 import com.jio.server.sdk.ISdkOrientationProvider;
-
-import java.util.Calendar;
-import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
     Button btnConnect, btnDisConnect;
