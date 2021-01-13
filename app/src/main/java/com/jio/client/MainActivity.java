@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void bindAidlService() {
         if (sdkServerConnection != null) {
-            Intent i = new Intent("com.jio.aidl_server.aidl.aidl.service.ISdkCallerService");
+            Intent i = new Intent("com.jio.aidl_server.aidl.service.ISdkCallerService");
             i.setPackage("com.jio.aidl_server.aidl.aidl");
             if (!bindService(i, sdkServerConnection, Context.BIND_AUTO_CREATE)) {
                 tvData.setText("Service Connection Failed!\nPlease install AIDL Server App.");
